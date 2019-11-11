@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+.a{
+  width: 30%;
+  float: left;
+}
+
+.a.clear {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* html, body {
+  position: relative;
+  height: 100%;
+} */
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+} */
+
+h1 {
+  margin: 15px;
+}
+
+.filter {
+  margin: 30px 10%;
+}
+
+.sort {
+  margin: 30px 10%;
+}
+
+.btn-collapse {
+  color: #62929E;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  outline: none;
+  font-size: 22px;
+}
+
+.cardBtn {
+  color: #62929E;
+  background-color: white;
+  border: 2px solid #62929E;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.cardBtn:hover {
+  color: white;
+  background-color: #62929E;
+  border: 2px solid #62929E;
+}
+
+.filter-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0px 10%;
+}
+
+.card {
+  margin: 15px 0;
+  margin-left: 2.33%
+}
+
+.about {
+  margin: 40px 11%;
+}
+
+.retailers {
+  margin: 40px 11%;
+}
+
+.myModal{
+  /* height: 100vh;
+  width : 80%; */
+  position: fixed;
+  /* top: 0px;
+  left: 0px; */
+  /* z-index: 5;
+  justify-content: center; */
+}
+
+.closeBar{
+  font-size: 25px;
+  color : white;
+  text-align: center;
+}
+
+.overlay {
+ position: fixed; /* Positioning and size */
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(255,255,255,0.9); /* color */
+ /* rgba(128,128,128,0.5) */
+ display: none;
+ z-index: 100;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .card {
+    margin: 15px;
+    margin-left: 2.5%;
+  }
+
+  .a{
+    width: 45%;
+    float: left;
+  }
+
+  .a.clear {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .card {
+    margin: 15px 5%;
+  }
+
+  .a{
+    width: 90%;
+  }
+
+}
